@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Викторина</string>
+    <string name="button_start">Начать</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Первый фрагмент</string>
+    <string name="second_fragment_label">Второй фрагмент</string>
+    <string name="next">Далее</string>
+    <string name="previous">Назад</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_welcome">Добро пожаловать!</string>
+    <string name="text_survey_fragment">Ответьте на следующие вопросы:</string>
+    <string name="toast_text">Пожалуйста, ответьте на все вопросы</string>
+    <string name="text_results_fragment">Результаты опроса</string>
+    <string name="start_again">Начать заново</string>
+    <string name="enter_data">Пожалуйста, введите дату свою дату рождения</string>
+    <string name="selected_data">Выбрана дата</string>
+    <string name="button_select_date">Дата рождения</string>
+    <string name="back">Назад</string>
+    <string name="send">Отправить</string>
+</resources>
