@@ -27,15 +27,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         countRotate = savedInstanceState?.getInt(KEY, count)
         isActiveRotate = savedInstanceState?.getBoolean(KEY2, isTimerActive)
+
         if (isActiveRotate == false) {
             count = countRotate as Int
             timer(binding)
         }
+
         binding.slider.addOnChangeListener { _, value, _ ->
             binding.textView2.text = value.toInt().toString()
             binding.progressBar.max = value.toInt()
             binding.progressBar.progress = value.toInt()
         }
+
         binding.button.setOnClickListener {
             count = binding.slider.value.toInt()
             timer(binding)
