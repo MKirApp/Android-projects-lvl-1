@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">m3_components</string>
+    <string name="value_0">0</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="countdown_timer">Countdown Timer</string>
+</resources>
