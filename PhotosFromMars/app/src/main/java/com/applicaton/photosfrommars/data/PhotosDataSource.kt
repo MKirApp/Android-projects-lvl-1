@@ -16,7 +16,7 @@ interface PhotosDataSource {
     suspend fun getPhotosFromMars(@Query("page") page: Int) : PhotoListDto
 
     private companion object {
-        private const val api_key = "X49Wj0OMRdgy0F00IjMcpqXA27SlA68ATjc8d29u"
+        private const val api_key = "DEMO_KEY"
     }
 }
 
