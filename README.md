@@ -14,7 +14,6 @@
 **Стек технологий и библиотек:**
 * Camera
 * RecyclerView
-* Paging Library
 * DiffUtil
 * Glide
 * Clean Architecture
